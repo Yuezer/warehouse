@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1522498167939" stop="1522498168259">
+  <name>test_all</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1522498167939" status="passed" stop="1522498168099">
+      <name>Test_allure.test_al1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15224-MainThread"/>
+        <label name="host" value="wy171217-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1522498168099" status="passed" stop="1522498168099">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments>
+            <attachment source="f9ed9c97-6553-4119-bc06-69098c0bfef9-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1522498168133" status="passed" stop="1522498168136">
+      <name>Test_allure.test_al2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15224-MainThread"/>
+        <label name="host" value="wy171217-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1522498168135" status="passed" stop="1522498168135">
+          <name>我是测试步骤002</name>
+          <title>我是测试步骤002</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1522498168138" status="failed" stop="1522498168259">
+      <name>Test_allure.test_al3</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_all.Test_allure object at 0x0000000004268550&gt;
+
+    @allure.step("我是测试步骤003")       #添加测试步骤
+    def test_al3(self):
+&gt;       assert 0
+E       assert 0
+
+test_all.py:20: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15224-MainThread"/>
+        <label name="host" value="wy171217-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1522498168140" status="failed" stop="1522498168161">
+          <name>我是测试步骤003</name>
+          <title>我是测试步骤003</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
